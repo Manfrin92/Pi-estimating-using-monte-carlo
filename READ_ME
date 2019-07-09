@@ -1,1 +1,7 @@
+Just a simple program in Python 3 to test the Monte Carlo Simulation Model to estimate the number pi (3.14)
 
+The idea is to simulate a large amount of points 'falling' in a square area with sides, for example, 1 meter. In this square there are
+a circle circumscribed. Considering that the square have a side of 1 meter we can say that the circle will have a radius of 0.5 meters.
+Because we know the area of the square (1x1) and the region of the circle (x²+y² = radius²; center = (0,0)) we can use Python to generate
+various random numbers in a domain that corresponds to the area of the square. With this pair of numbers (Xrandom, Yrandom) we can see
+if the point analyzed is within the circle or the square and therefore aproximate the number Pi.
