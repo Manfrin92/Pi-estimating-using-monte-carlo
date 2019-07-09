@@ -19,14 +19,14 @@ for x in range(0,testes):
     else:
         caiu_fora += 1
 print('\n')
-print('Caiu dentro '+ str(caiu_dentro) +' vezes')
-print('Caiu fora '+ str(caiu_fora) +' vezes')
+print('The point was within the circle '+ str(caiu_dentro) +' times.')
+print('The point was outside the circle '+ str(caiu_fora) +' times.')
 
 
 picalculado = caiu_dentro * 4 / testes
 
 print('\n')
-print('pi calculado foi ' + str(picalculado))
+print('The estimated pi was ' + str(picalculado))
 print('\n')
-print('erro de ' + str(picalculado-piReal))
+print('And that corresponds to an error of ' + str(picalculado-piReal))
 
